@@ -1,0 +1,3 @@
+[submodule "Teensy4.0_Eagle"]
+	path = Teensy4.0_Eagle
+	url = git@github.com:mng-25/Teensy4.0_Eagle.git
