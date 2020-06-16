@@ -1,0 +1,4 @@
+15/6
+- check with Arjo on the deadline of PCB printing
+- power distributing layout in the robot (one in each compartment)
+- check with mechanical team for updated CAD model
