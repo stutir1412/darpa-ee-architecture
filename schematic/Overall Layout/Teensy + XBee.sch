@@ -2180,101 +2180,6 @@ diameter 3.5 mm, horizontal, grid 15.24 mm</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="con-wago-500" urn="urn:adsk.eagle:library:195">
-<description>&lt;b&gt;Wago Screw Clamps&lt;/b&gt;&lt;p&gt;
-Grid 5.00 mm&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="W237-103" urn="urn:adsk.eagle:footprint:10678/1" library_version="2">
-<description>&lt;b&gt;WAGO SCREW CLAMP&lt;/b&gt;</description>
-<wire x1="4.093" y1="-2.255" x2="5.897" y2="-0.299" width="0.254" layer="51"/>
-<wire x1="-0.911" y1="-2.331" x2="0.994" y2="-0.299" width="0.254" layer="51"/>
-<wire x1="-5.991" y1="-2.306" x2="-3.984" y2="-0.299" width="0.254" layer="51"/>
-<wire x1="-7.489" y1="-5.481" x2="7.497" y2="-5.481" width="0.1524" layer="21"/>
-<wire x1="7.497" y1="3.714" x2="7.497" y2="3.511" width="0.1524" layer="21"/>
-<wire x1="7.497" y1="3.714" x2="-7.489" y2="3.714" width="0.1524" layer="21"/>
-<wire x1="-7.489" y1="-5.481" x2="-7.489" y2="-3.093" width="0.1524" layer="21"/>
-<wire x1="-7.489" y1="-3.093" x2="-5.889" y2="-3.093" width="0.1524" layer="21"/>
-<wire x1="-5.889" y1="-3.093" x2="-4.111" y2="-3.093" width="0.1524" layer="51"/>
-<wire x1="-4.111" y1="-3.093" x2="-0.885" y2="-3.093" width="0.1524" layer="21"/>
-<wire x1="0.893" y1="-3.093" x2="4.119" y2="-3.093" width="0.1524" layer="21"/>
-<wire x1="5.897" y1="-3.093" x2="7.497" y2="-3.093" width="0.1524" layer="21"/>
-<wire x1="-7.489" y1="-3.093" x2="-7.489" y2="3.511" width="0.1524" layer="21"/>
-<wire x1="7.497" y1="-3.093" x2="7.497" y2="-5.481" width="0.1524" layer="21"/>
-<wire x1="7.497" y1="3.511" x2="-7.489" y2="3.511" width="0.1524" layer="21"/>
-<wire x1="7.497" y1="3.511" x2="7.497" y2="-3.093" width="0.1524" layer="21"/>
-<wire x1="-7.489" y1="3.511" x2="-7.489" y2="3.714" width="0.1524" layer="21"/>
-<wire x1="-0.885" y1="-3.093" x2="0.893" y2="-3.093" width="0.1524" layer="51"/>
-<wire x1="4.119" y1="-3.093" x2="5.897" y2="-3.093" width="0.1524" layer="51"/>
-<circle x="-5" y="-1.29" radius="1.4986" width="0.1524" layer="51"/>
-<circle x="5.0076" y="-1.29" radius="1.4986" width="0.1524" layer="51"/>
-<circle x="-5" y="2.1898" radius="0.508" width="0.1524" layer="21"/>
-<circle x="5.0076" y="2.1898" radius="0.508" width="0.1524" layer="21"/>
-<circle x="0.0038" y="-1.29" radius="1.4986" width="0.1524" layer="51"/>
-<circle x="0.0038" y="2.1898" radius="0.508" width="0.1524" layer="21"/>
-<pad name="1" x="-5" y="-1.29" drill="1.1938" shape="long" rot="R90"/>
-<pad name="2" x="0" y="-1.29" drill="1.1938" shape="long" rot="R90"/>
-<pad name="3" x="5" y="-1.29" drill="1.1938" shape="long" rot="R90"/>
-<text x="-6.905" y="0.615" size="1.27" layer="51" ratio="10">1</text>
-<text x="-1.8504" y="0.5642" size="1.27" layer="51" ratio="10">2</text>
-<text x="3.1534" y="0.615" size="1.27" layer="51" ratio="10">3</text>
-<text x="-5.3048" y="-4.9476" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-5.6858" y="-7.4622" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="W237-103" urn="urn:adsk.eagle:package:10691/1" type="box" library_version="2">
-<description>WAGO SCREW CLAMP</description>
-<packageinstances>
-<packageinstance name="W237-103"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="KL" urn="urn:adsk.eagle:symbol:10675/1" library_version="2">
-<circle x="1.27" y="0" radius="1.27" width="0.254" layer="94"/>
-<text x="0" y="0.889" size="1.778" layer="95" rot="R180">&gt;NAME</text>
-<pin name="KL" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-<symbol name="KL+V" urn="urn:adsk.eagle:symbol:10673/1" library_version="2">
-<circle x="1.27" y="0" radius="1.27" width="0.254" layer="94"/>
-<text x="-2.54" y="-3.683" size="1.778" layer="96">&gt;VALUE</text>
-<text x="0" y="0.889" size="1.778" layer="95" rot="R180">&gt;NAME</text>
-<pin name="KL" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="W237-103" urn="urn:adsk.eagle:component:10707/2" prefix="X" uservalue="yes" library_version="2">
-<description>&lt;b&gt;WAGO SCREW CLAMP&lt;/b&gt;</description>
-<gates>
-<gate name="-1" symbol="KL" x="0" y="5.08" addlevel="always"/>
-<gate name="-2" symbol="KL" x="0" y="0" addlevel="always"/>
-<gate name="-3" symbol="KL+V" x="0" y="-5.08" addlevel="always"/>
-</gates>
-<devices>
-<device name="" package="W237-103">
-<connects>
-<connect gate="-1" pin="KL" pad="1"/>
-<connect gate="-2" pin="KL" pad="2"/>
-<connect gate="-3" pin="KL" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:10691/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="237-103" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="18M7116" constant="no"/>
-<attribute name="POPULARITY" value="5" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="maxstream" urn="urn:adsk.eagle:library:270">
 <description>&lt;b&gt;MaxSream&lt;/b&gt; XBee Products&lt;p&gt;
 http://www.maxstream.net</description>
@@ -3121,13 +3026,104 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="M83513_10-A01NP">
+<packages>
+<package name="BEL_M83513/10-A01NP">
+<text x="-10" y="7.25" size="1.778" layer="25">&gt;NAME</text>
+<text x="-10" y="5.25" size="1.778" layer="27">&gt;VALUE</text>
+<wire x1="-9.97" y1="4.32" x2="9.97" y2="4.32" width="0.127" layer="51"/>
+<circle x="10.52" y="-0.508" radius="0.1" width="0.2" layer="21"/>
+<circle x="10.52" y="-0.508" radius="0.1" width="0.2" layer="51"/>
+<wire x1="-9.97" y1="4.32" x2="-9.97" y2="-6.35" width="0.127" layer="51"/>
+<wire x1="-9.97" y1="-6.35" x2="-9.97" y2="-11.18" width="0.127" layer="51"/>
+<wire x1="-9.97" y1="-11.18" x2="9.97" y2="-11.18" width="0.127" layer="51"/>
+<wire x1="9.97" y1="-11.18" x2="9.97" y2="-6.35" width="0.127" layer="51"/>
+<wire x1="9.97" y1="-6.35" x2="9.97" y2="4.32" width="0.127" layer="51"/>
+<wire x1="-9.97" y1="-6.35" x2="9.97" y2="-6.35" width="0.127" layer="51"/>
+<wire x1="-9.97" y1="4.32" x2="-9.97" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="-9.97" y1="4.32" x2="9.97" y2="4.32" width="0.127" layer="21"/>
+<wire x1="9.97" y1="-6.35" x2="9.97" y2="4.32" width="0.127" layer="21"/>
+<wire x1="-9.97" y1="-6.35" x2="9.97" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="-10.22" y1="4.57" x2="-10.22" y2="-11.43" width="0.05" layer="39"/>
+<wire x1="-10.22" y1="4.57" x2="10.22" y2="4.57" width="0.05" layer="39"/>
+<wire x1="10.22" y1="-11.43" x2="10.22" y2="4.57" width="0.05" layer="39"/>
+<wire x1="-10.22" y1="-11.43" x2="10.22" y2="-11.43" width="0.05" layer="39"/>
+<text x="10.795" y="-6" size="0.8128" layer="51">PCB EDGE</text>
+<wire x1="16.7" y1="-6.35" x2="9.97" y2="-6.35" width="0.127" layer="51"/>
+<hole x="-7.188" y="0" drill="2.57"/>
+<hole x="7.188" y="0" drill="2.57"/>
+<pad name="2" x="1.27" y="-0.508" drill="1.02" rot="R180"/>
+<pad name="3" x="0" y="2.032" drill="1.02" rot="R180"/>
+<pad name="4" x="-1.27" y="-0.508" drill="1.02" rot="R180"/>
+<pad name="6" x="5.08" y="2.032" drill="1.02" rot="R180"/>
+<pad name="8" x="-2.54" y="2.032" drill="1.02" rot="R180"/>
+<pad name="1" x="3.81" y="-0.508" drill="1.02" shape="square" rot="R180"/>
+<pad name="5" x="-3.81" y="-0.508" drill="1.02" rot="R180"/>
+<pad name="7" x="2.54" y="2.032" drill="1.02" rot="R180"/>
+<pad name="9" x="-5.08" y="2.032" drill="1.02"/>
+</package>
+</packages>
+<symbols>
+<symbol name="M83513/10-A01NP">
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<text x="-7.62" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-12.7" y="5.08" length="middle" direction="pas"/>
+<pin name="2" x="-12.7" y="2.54" length="middle" direction="pas"/>
+<pin name="3" x="-12.7" y="0" length="middle" direction="pas"/>
+<pin name="4" x="-12.7" y="-2.54" length="middle" direction="pas"/>
+<pin name="5" x="-12.7" y="-5.08" length="middle" direction="pas"/>
+<pin name="6" x="12.7" y="5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="7" x="12.7" y="2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="8" x="12.7" y="0" length="middle" direction="pas" rot="R180"/>
+<pin name="9" x="12.7" y="-2.54" length="middle" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="M83513/10-A01NP" prefix="J">
+<description>MIL-DTL-83513 PCB Mounted Connector | Plug | 9 Positions | Shell Finish - Cadmium | Male | PCB Solder Pins | 0.109in (2.77 mm) Pin Length</description>
+<gates>
+<gate name="G$1" symbol="M83513/10-A01NP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BEL_M83513/10-A01NP">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Unavailable"/>
+<attribute name="DESCRIPTION" value=" MIL-DTL-83513 PCB Mounted Connector | Plug | 9 Positions | Shell Finish - Nickel | Male | PCB Solder Pins | 0.109 (2.77 mm) Pin Length | Jackpost Attached "/>
+<attribute name="MF" value="Cinch Connectivity Solutions"/>
+<attribute name="MP" value="M83513/10-A01NP"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.3048" drill="0.508">
+<clearance class="0" value="0.254"/>
 </class>
 </classes>
 <modules>
@@ -3256,12 +3252,12 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <part name="D7" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N5333" device="" package3d_urn="urn:adsk.eagle:package:43351/1"/>
 <part name="D8" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N5333" device="" package3d_urn="urn:adsk.eagle:package:43351/1"/>
 <part name="D9" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N5333" device="" package3d_urn="urn:adsk.eagle:package:43351/1"/>
-<part name="J2" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" deviceset="W237-103" device="" package3d_urn="urn:adsk.eagle:package:10691/1"/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SW2" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="SW_DIP-2" device="" package3d_urn="urn:adsk.eagle:package:26654/2"/>
 <part name="S15" library="switch-tact" deviceset="DTS-6" device=""/>
 <part name="XB2" library="maxstream" library_urn="urn:adsk.eagle:library:270" deviceset="XBEE" device="" package3d_urn="urn:adsk.eagle:package:18007/1"/>
+<part name="J1" library="M83513_10-A01NP" deviceset="M83513/10-A01NP" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3330,16 +3326,6 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <attribute name="NAME" x="41.275" y="135.382" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="46.609" y="135.382" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="J2" gate="-1" x="-5.08" y="99.06" smashed="yes">
-<attribute name="NAME" x="-5.08" y="99.949" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="J2" gate="-2" x="-5.08" y="93.98" smashed="yes">
-<attribute name="NAME" x="-5.08" y="94.869" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="J2" gate="-3" x="-5.08" y="88.9" smashed="yes">
-<attribute name="VALUE" x="-7.62" y="85.217" size="1.778" layer="96"/>
-<attribute name="NAME" x="-5.08" y="89.789" size="1.778" layer="95" rot="R180"/>
-</instance>
 <instance part="GND15" gate="1" x="38.1" y="147.32" smashed="yes" rot="R180">
 <attribute name="VALUE" x="40.64" y="149.86" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -3357,6 +3343,10 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <instance part="XB2" gate="G$1" x="-86.36" y="38.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="-73.66" y="8.89" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-73.66" y="71.12" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="J1" gate="G$1" x="-17.78" y="93.98" smashed="yes">
+<attribute name="NAME" x="-25.4" y="102.87" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-25.4" y="83.82" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -3404,10 +3394,12 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <wire x1="73.66" y1="81.28" x2="73.66" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J2" gate="-3" pin="KL"/>
-<wire x1="0" y1="88.9" x2="5.08" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="88.9" x2="5.08" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="GND16" gate="1" pin="GND"/>
 <wire x1="5.08" y1="88.9" x2="5.08" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="88.9" x2="-2.54" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="8"/>
+<wire x1="-2.54" y1="93.98" x2="-5.08" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D6" gate="1" pin="C"/>
@@ -3446,11 +3438,13 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <pinref part="D7" gate="1" pin="C"/>
 <wire x1="30.48" y1="124.46" x2="30.48" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="68.58" x2="66.04" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="J2" gate="-2" pin="KL"/>
 <wire x1="0" y1="93.98" x2="25.4" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="93.98" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="68.58" x2="30.48" y2="68.58" width="0.1524" layer="91"/>
 <junction x="30.48" y="68.58"/>
+<wire x1="0" y1="93.98" x2="0" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="7"/>
+<wire x1="0" y1="96.52" x2="-5.08" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN_BUS" class="0">
@@ -3468,10 +3462,10 @@ Source: MaxStream, Inc. xbee_productmanual.pdf</description>
 <wire x1="66.04" y1="109.22" x2="91.44" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="124.46" x2="43.18" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="109.22" x2="66.04" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="J2" gate="-1" pin="KL"/>
-<wire x1="0" y1="99.06" x2="43.18" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="99.06" x2="43.18" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="99.06" x2="43.18" y2="109.22" width="0.1524" layer="91"/>
 <junction x="43.18" y="109.22"/>
+<pinref part="J1" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="N$40" class="0">
