@@ -3526,7 +3526,7 @@ design rules under a new name.</description>
 <wire x1="36.83" y1="69.73" x2="38.22" y2="71.12" width="0.508" layer="1" grouprefs="REGULATOR"/>
 <wire x1="38.22" y1="71.12" x2="39.37" y2="71.12" width="0.508" layer="1" grouprefs="REGULATOR"/>
 <wire x1="40.96" y1="69.85" x2="39.37" y2="69.85" width="0.508" layer="1" grouprefs="REGULATOR"/>
-<wire x1="39.37" y1="72.39" x2="40.96" y2="72.39" width="0.508" layer="1" grouprefs="REGULATOR"/>
+<wire x1="40.96" y1="72.39" x2="39.37" y2="72.39" width="0.508" layer="1" grouprefs="REGULATOR"/>
 <wire x1="53.34" y1="68.26" x2="53.34" y2="72.39" width="0.508" layer="1" grouprefs="REGULATOR"/>
 <wire x1="53.34" y1="72.39" x2="50.8" y2="74.93" width="0.508" layer="1" grouprefs="REGULATOR"/>
 <wire x1="40.64" y1="74.93" x2="39.37" y2="73.66" width="0.508" layer="1" grouprefs="REGULATOR"/>
@@ -3568,9 +3568,6 @@ design rules under a new name.</description>
 <vertex x="38.1" y="74.93"/>
 <vertex x="38.1" y="68.58"/>
 </polygon>
-<contactref element="J1" pad="8"/>
-<wire x1="45.02" y1="85.24" x2="43.434" y2="83.654" width="0.6096" layer="16"/>
-<wire x1="43.434" y1="83.654" x2="43.434" y2="75.438" width="0.6096" layer="16"/>
 </signal>
 <signal name="EN_12V">
 <contactref element="U2" pad="5"/>
@@ -4251,9 +4248,9 @@ design rules under a new name.</description>
 <contactref element="D36" pad="2"/>
 <contactref element="D37" pad="2"/>
 <contactref element="D38" pad="2"/>
-<wire x1="116.832" y1="19.05" x2="116.832" y2="21.59" width="0" layer="19" extent="16-16"/>
-<wire x1="116.832" y1="16.51" x2="116.832" y2="19.05" width="0" layer="19" extent="16-16"/>
-<wire x1="116.832" y1="13.97" x2="116.832" y2="16.51" width="0" layer="19" extent="16-16"/>
+<wire x1="116.832" y1="16.51" x2="116.832" y2="13.97" width="0" layer="19" extent="1-1"/>
+<wire x1="116.832" y1="19.05" x2="116.832" y2="16.51" width="0" layer="19" extent="1-1"/>
+<wire x1="116.832" y1="21.59" x2="116.832" y2="19.05" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

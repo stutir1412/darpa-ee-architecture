@@ -18955,7 +18955,7 @@ Updated by Yingchun,Shan 2019-10-30
 </class>
 </classes>
 <parts>
-<part name="U2" library="TPSxxxxxx-buck-regulators" deviceset="TPS54302" device=""/>
+<part name="U$2" library="TPSxxxxxx-buck-regulators" deviceset="TPS54302" device=""/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
@@ -18970,7 +18970,7 @@ Updated by Yingchun,Shan 2019-10-30
 <part name="L2" library="inductor-neosid" library_urn="urn:adsk.eagle:library:241" deviceset="SM-NE29" device="" package3d_urn="urn:adsk.eagle:package:14694/1" value="15uH"/>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="U3" library="TPSxxxxxx-buck-regulators" deviceset="TPS54302" device=""/>
+<part name="U$3" library="TPSxxxxxx-buck-regulators" deviceset="TPS54302" device=""/>
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
@@ -19117,7 +19117,7 @@ for troubleshooting purposes</text>
 <text x="238.76" y="22.86" size="1.778" layer="97">*** physical indicator for battery - can be installed at the through-hole pads</text>
 </plain>
 <instances>
-<instance part="U2" gate="G$1" x="302.26" y="170.18" smashed="yes">
+<instance part="U$2" gate="G$1" x="302.26" y="170.18" smashed="yes">
 <attribute name="NAME" x="294.64" y="177.8" size="1.778" layer="95"/>
 <attribute name="VALUE" x="294.64" y="157.48" size="1.778" layer="96"/>
 </instance>
@@ -19173,7 +19173,7 @@ for troubleshooting purposes</text>
 <instance part="SUPPLY8" gate="GND" x="365.76" y="121.92" smashed="yes">
 <attribute name="VALUE" x="363.855" y="118.745" size="1.778" layer="96"/>
 </instance>
-<instance part="U3" gate="G$1" x="302.26" y="238.76" smashed="yes">
+<instance part="U$3" gate="G$1" x="302.26" y="238.76" smashed="yes">
 <attribute name="NAME" x="294.64" y="246.38" size="1.778" layer="95"/>
 <attribute name="VALUE" x="294.64" y="226.06" size="1.778" layer="96"/>
 </instance>
@@ -19430,7 +19430,7 @@ for troubleshooting purposes</text>
 <wire x1="365.76" y1="193.04" x2="365.76" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="GND"/>
+<pinref part="U$2" gate="G$1" pin="GND"/>
 <wire x1="289.56" y1="162.56" x2="284.48" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
 <wire x1="284.48" y1="157.48" x2="284.48" y2="162.56" width="0.1524" layer="91"/>
@@ -19438,7 +19438,7 @@ for troubleshooting purposes</text>
 <segment>
 <pinref part="SUPPLY9" gate="GND" pin="GND"/>
 <wire x1="284.48" y1="226.06" x2="284.48" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="GND"/>
+<pinref part="U$3" gate="G$1" pin="GND"/>
 <wire x1="284.48" y1="231.14" x2="289.56" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -19526,7 +19526,7 @@ for troubleshooting purposes</text>
 </net>
 <net name="VIN" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="VIN"/>
+<pinref part="U$2" gate="G$1" pin="VIN"/>
 <wire x1="289.56" y1="175.26" x2="261.62" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="256.54" y1="170.18" x2="256.54" y2="175.26" width="0.1524" layer="91"/>
@@ -19539,7 +19539,7 @@ for troubleshooting purposes</text>
 <label x="248.92" y="175.26" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="VIN"/>
+<pinref part="U$3" gate="G$1" pin="VIN"/>
 <wire x1="289.56" y1="243.84" x2="261.62" y2="243.84" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="1"/>
 <wire x1="256.54" y1="238.76" x2="256.54" y2="243.84" width="0.1524" layer="91"/>
@@ -19622,7 +19622,7 @@ for troubleshooting purposes</text>
 <wire x1="360.68" y1="144.78" x2="360.68" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="360.68" y1="139.7" x2="365.76" y2="139.7" width="0.1524" layer="91"/>
 <junction x="365.76" y="139.7"/>
-<pinref part="U2" gate="G$1" pin="FB"/>
+<pinref part="U$2" gate="G$1" pin="FB"/>
 <wire x1="314.96" y1="162.56" x2="335.28" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="335.28" y1="162.56" x2="335.28" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="335.28" y1="139.7" x2="360.68" y2="139.7" width="0.1524" layer="91"/>
@@ -19631,7 +19631,7 @@ for troubleshooting purposes</text>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="BOOT"/>
+<pinref part="U$2" gate="G$1" pin="BOOT"/>
 <pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="314.96" y1="175.26" x2="317.5" y2="175.26" width="0.1524" layer="91"/>
 </segment>
@@ -19643,7 +19643,7 @@ for troubleshooting purposes</text>
 <wire x1="327.66" y1="175.26" x2="327.66" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="L2" gate="G$1" pin="1"/>
 <wire x1="327.66" y1="170.18" x2="330.2" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="SW"/>
+<pinref part="U$2" gate="G$1" pin="SW"/>
 <wire x1="314.96" y1="170.18" x2="327.66" y2="170.18" width="0.1524" layer="91"/>
 <junction x="327.66" y="170.18"/>
 </segment>
@@ -19670,7 +19670,7 @@ for troubleshooting purposes</text>
 <wire x1="360.68" y1="213.36" x2="360.68" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="360.68" y1="208.28" x2="365.76" y2="208.28" width="0.1524" layer="91"/>
 <junction x="365.76" y="208.28"/>
-<pinref part="U3" gate="G$1" pin="FB"/>
+<pinref part="U$3" gate="G$1" pin="FB"/>
 <wire x1="314.96" y1="231.14" x2="335.28" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="335.28" y1="231.14" x2="335.28" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="335.28" y1="208.28" x2="360.68" y2="208.28" width="0.1524" layer="91"/>
@@ -19679,7 +19679,7 @@ for troubleshooting purposes</text>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="BOOT"/>
+<pinref part="U$3" gate="G$1" pin="BOOT"/>
 <pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="314.96" y1="243.84" x2="317.5" y2="243.84" width="0.1524" layer="91"/>
 </segment>
@@ -19691,7 +19691,7 @@ for troubleshooting purposes</text>
 <wire x1="327.66" y1="243.84" x2="327.66" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="L3" gate="G$1" pin="1"/>
 <wire x1="327.66" y1="238.76" x2="330.2" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="SW"/>
+<pinref part="U$3" gate="G$1" pin="SW"/>
 <wire x1="314.96" y1="238.76" x2="327.66" y2="238.76" width="0.1524" layer="91"/>
 <junction x="327.66" y="238.76"/>
 </segment>
@@ -19729,15 +19729,10 @@ for troubleshooting purposes</text>
 <wire x1="228.6" y1="73.66" x2="228.6" y2="71.12" width="0.1524" layer="91"/>
 <label x="228.6" y="71.12" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="154.94" y1="66.04" x2="157.48" y2="66.04" width="0.1524" layer="91"/>
-<label x="157.48" y="66.04" size="1.778" layer="95" xref="yes"/>
-</segment>
 </net>
 <net name="EN_12V" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="EN"/>
+<pinref part="U$2" gate="G$1" pin="EN"/>
 <wire x1="289.56" y1="170.18" x2="284.48" y2="170.18" width="0.1524" layer="91"/>
 <label x="284.48" y="170.18" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -19749,7 +19744,7 @@ for troubleshooting purposes</text>
 </net>
 <net name="EN_5V" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="EN"/>
+<pinref part="U$3" gate="G$1" pin="EN"/>
 <wire x1="289.56" y1="238.76" x2="284.48" y2="238.76" width="0.1524" layer="91"/>
 <label x="284.48" y="238.76" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
