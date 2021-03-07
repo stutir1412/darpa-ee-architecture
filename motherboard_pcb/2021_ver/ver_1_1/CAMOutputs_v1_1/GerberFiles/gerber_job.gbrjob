@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2021-03-01T14:32:13Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "buck_converters_v1.1"
+        },
+        "Owner": "Sean Yeo <e0318546@u.nus.edu>",
+        "Size": {
+            "X": 120.65,
+            "Y": 88.9
+        }
+    }
+}
