@@ -1,0 +1,25 @@
+pin: 0 gpio bank: 1107296256
+pin: 1 gpio bank: 1107296256
+pin: 2 gpio bank: 1107345408
+pin: 3 gpio bank: 1107345408
+pin: 4 gpio bank: 1107345408
+pin: 5 gpio bank: 1107345408
+pin: 6 gpio bank: 1107312640
+pin: 7 gpio bank: 1107312640
+pin: 8 gpio bank: 1107312640
+pin: 9 gpio bank: 1107312640
+pin: 10 gpio bank: 1107312640
+pin: 11 gpio bank: 1107312640
+pin: 12 gpio bank: 1107312640
+pin: 13 gpio bank: 1107312640
+pin: 14 gpio bank: 1107296256
+pin: 15 gpio bank: 1107296256
+pin: 16 gpio bank: 1107296256
+pin: 17 gpio bank: 1107296256
+pin: 18 gpio bank: 1107296256
+pin: 19 gpio bank: 1107296256
+pin: 20 gpio bank: 1107296256
+pin: 21 gpio bank: 1107296256
+pin: 22 gpio bank: 1107296256
+pin: 23 gpio bank: 1107296256
+
