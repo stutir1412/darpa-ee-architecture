@@ -237,7 +237,7 @@ void loop()
     // check count per loop
     // Serial.print("R count: ");
     // Serial.print(ENCO_R_count);
-    
+
     // Serial.print("  L count: ");
     // Serial.println(ENCO_L_count);
 
@@ -263,7 +263,7 @@ void loop()
       theta += TWO_PI;
 
     // compute x and y
-    x += distance_average * cos(theta);;
+    x += distance_average * cos(theta);
     y += distance_average * sin(theta);
 
     // pub tf
@@ -292,8 +292,8 @@ void loop()
 
     odom_msg.child_frame_id = base_link;
     odom_msg.twist.twist.linear.x = distance_average * 100.0;
-    odom_msg.twist.twist.linear.y = 0.0;     
-    odom_msg.twist.twist.angular.z = (distance_R_per_loop - distance_L_per_loop) / robot_width * 100.0; 
+    odom_msg.twist.twist.linear.y = 0.0;
+    odom_msg.twist.twist.angular.z = (distance_R_per_loop - distance_L_per_loop) / robot_width * 100.0;
 
     odom_pub.publish(&odom_msg);
 

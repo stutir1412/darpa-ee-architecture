@@ -40,7 +40,7 @@ void setup()
   pinMode(MOTOR_A_FR, OUTPUT);
 
   // initial state of the motor
-  digitalWrite(MOTOR_EN, HIGH);
+  digitalWrite(MOTOR_EN, LOW);
 
   // initiate CANbus
   if (ENABLE_CANBUS)
