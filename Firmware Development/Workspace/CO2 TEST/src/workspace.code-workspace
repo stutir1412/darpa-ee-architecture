@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "Teensy 4.0 C02",
+			"path": "../../Teensy 4.0 C02"
+		},
+		{
+			"path": "../../../../../Desktop/teensy4_i2c-master"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.tcc": "cpp",
+			"string": "cpp",
+			"initializer_list": "cpp",
+			"cstdint": "cpp"
+		}
+	}
+}
