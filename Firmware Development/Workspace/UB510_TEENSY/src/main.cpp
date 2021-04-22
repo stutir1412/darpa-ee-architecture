@@ -1,6 +1,6 @@
 #include <Arduino.h>
 
-#include <FlexCAN_T4.h>
+#include <CANbus/FlexCAN_T4.h>
 
 #define MOTOR_A_SV 4 // PWM signal
 #define MOTOR_A_PG 5 // RPM feedback
